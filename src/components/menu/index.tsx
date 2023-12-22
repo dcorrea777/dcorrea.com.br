@@ -28,9 +28,9 @@ function Menu() {
             <ul>
                 {socialMedia.map((social) => {
                     return (
-                        <li>
+                        <li key={social.url}>
                             <a href={social.url} className="icon brands" title={social.text}>
-                            {social.icon} 
+                            {social.icon}
                             </a>
                         </li>
                     )
