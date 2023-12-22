@@ -14,11 +14,12 @@ export const Container = styled.header`
     -ms-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     cursor: default;
-    display: inline-block;
     opacity: 0;
     position: relative;
-    text-align: center;
     top: -1em;
     vertical-align: middle;
     width: 90%;
@@ -34,5 +35,16 @@ export const Container = styled.header`
         font-size: 1.25em;
         margin: 0.75em 0 0.25em 0;
         opacity: 0.75;
+    }
+
+    .about {
+        width: 30vw;
+        text-align: justify;
+        line-height: 170%;
+    }
+    .title {
+        width: 30vw;
+        text-align: justify;
+        line-height: 170%;
     }
 `;
