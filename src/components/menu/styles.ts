@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-    margin: 1.5em 0 0 0;
+    margin-top: 1.5rem;
+
     li {
         -moz-animation: nav-icons 0.5s ease-in-out forwards;
         -webkit-animation: nav-icons 0.5s ease-in-out forwards;
@@ -106,5 +107,5 @@ export const Nav = styled.nav`
         -webkit-animation-delay: 4.75s;
         -ms-animation-delay: 4.75s;
         animation-delay: 4.75s;
-    } 
+    }
 `;
